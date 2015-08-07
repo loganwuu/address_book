@@ -1,10 +1,11 @@
 # Address Book
 
-##### App that allows users to search and delete contacts in his/her Address Book (8/7/2015)
+##### App that displays a user's address book (8/7/2015)
 
 #### By Logan Wu
 
 ## Description
+This app displays and allows users to add and delete contacts in his/her Address Book.
 
 ## Setup
 

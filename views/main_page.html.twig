@@ -19,21 +19,21 @@
                         </ul>
                     {% endfor %}
                 </ol>
-                <hr size=4 width=100% align=left>
+                <hr noshade size=4 width=100% align=left>
             {% endif %}
 
             <form action='/create_contact' method='post'>
                 <div class="form-group">
-                    <label for='name'>Name</label>
-                    <input id='name' name='name' class="form-control" type='text'>
+                    <label for='contact_name'>Name</label>
+                    <input id='contact_name' name='contact_name' class="form-control" type='text'>
                 </div>
                 <div class="form-group">
-                    <label for='phone_num'>Phone Number</label>
-                    <input id='phone_num' name='phone_num' class="form-control" type='number'>
+                    <label for='contact_phone_num'>Phone Number</label>
+                    <input id='contact_phone_num' name='contact_phone_num' class="form-control" type='number'>
                 </div>
                 <div class="form-group">
-                    <label for='address'>Address</label>
-                    <input id='address' name='address' class="form-control" type='text'>
+                    <label for='contact_address'>Address</label>
+                    <input id='contact_address' name='contact_address' class="form-control" type='text'>
                 </div>
                     <button type='submit' class='btn btn-default'>Add New Contact</button>
             </form>

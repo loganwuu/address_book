@@ -14,19 +14,19 @@
     $app->register(new Silex\Provider\TwigServiceProvider(), array('twig.path' => __DIR__.'/../views'
     ));
 
-    // home page //
+    // home page showing all contacts with the create contact form //
     $app->get("/", function() use ($app) {
         return $app['twig']->render('main_page.html.twig', array('all_contacts' => Contact::getAll()));
     });
 
-    // create contact confirmation page //
+    // create-contact confirmation page with 'home' button //
     $app->post("/create_contact", function() use ($app) {
-        $newContact = new Contact($_POST['name'], $_POST['phone_num'], $_POST['address']);
-        $newContact->save();
-        return $app['twig']->render('create_contact.html.twig', array('newContact' => $newContact));
+        $new_contact = new Contact($_POST['contact_name'], $_POST['contact_phone_num'], $_POST['contact_address']);
+        $new_contact->save();
+        return $app['twig']->render('create_contact.html.twig', array('new_contact' => $new_contact));
     });
 
-    // delete all contacts page //
+    // delete all contacts page with 'home' button //
     $app->post("/delete_contacts", function() use ($app) {
         Contact::deleteAll();
         return $app['twig']->render('delete_contacts.html.twig');

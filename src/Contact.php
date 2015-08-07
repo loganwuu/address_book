@@ -5,11 +5,11 @@
         private $phone_num;
         private $address;
 
-        function __construct($name, $phone_num, $address)
+        function __construct($contact_name, $contact_phone_num, $contact_address)
         {
-            $this->$name = $name;
-            $this->$phone_num = $phone_num;
-            $this->$address = $address;
+            $this->$name = $contact_name;
+            $this->$phone_num = $contact_phone_num;
+            $this->$address = $contact_address;
         }
 
         function setName($new_name)
