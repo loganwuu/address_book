@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>You have created a new contact</title>
+    </head>
+    <body>
+        <h1>You created a contact!</h1>
+        <h3>{{ new_contact.getName }}</h3>
+        <ul>
+            <li>Phone Number: {{ new_contact.getPhoneNum }}</li>
+            <li>Address: {{ new_contact.getAddress }}</li>
+        </ul>
+        <form action="/">
+            <button type='submit' class='btn btn-default'>Home</button>
+        </form>
+    </body>
+</html>
