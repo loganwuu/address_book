@@ -14,7 +14,7 @@
 
         function setName($new_name)
         {
-            $this->name = $new_name;
+            $this->name = (string) $new_name;
         }
 
         function setPhoneNum($new_phone_num)
@@ -24,7 +24,7 @@
 
         function setAddress()
         {
-            $this->address -> $new_address;
+            $this->address = (string) $new_address;
         }
 
         function getName()

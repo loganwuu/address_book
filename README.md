@@ -1,6 +1,6 @@
 # Address Book
 
-##### App that allows users to search contact in his/her Address Book, 8/7/2015
+##### App that allows users to search and delete contacts in his/her Address Book (8/7/2015)
 
 #### By Logan Wu
 
