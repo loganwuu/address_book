@@ -20,9 +20,9 @@
             $this->name = $new_name;
         }
 
-        function setPhoneNum($new_phone)
+        function setPhone($new_phone)
         {
-            $this->phone_num = $new_phone;
+            $this->phone = $new_phone;
         }
 
         function setAddress($new_address)
