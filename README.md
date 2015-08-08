@@ -2,13 +2,18 @@
 
 ##### App that displays a user's address book (8/7/2015)
 
-#### By Logan Wu
+#### By **Logan Wu**
 
 ## Description
 This app displays and allows users to add and delete contacts in his/her Address Book.
 
 ## Setup
-
+* Open Terminal
+* Enter the web directory in AddressBook using terminal
+* Enter the following command into termianl 'php -S localhost:8000'
+* Open a web browser and type this into the address bar 'localhost:8000'
+* Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the AddressBook project folder on the console by typing in "composer install" and "composer update"
+* 
 ## Technologies Used
 
 PHP, HTML, CSS, Silex, Twig
