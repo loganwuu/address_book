@@ -14,7 +14,7 @@
     $app->register(new Silex\Provider\TwigServiceProvider(), array('twig.path' => __DIR__.'/../views'
     ));
 
-    // home page showing all contacts with the create contact form with 'clear' button//
+    // home page showing all contacts with the create contact form with 'clear' button //
     $app->get("/", function() use ($app) {
         return $app['twig']->render('contacts.html.twig', array('all_contacts' => Contact::getAll()));
     });
