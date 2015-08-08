@@ -9,9 +9,9 @@
         // constructor //
         function __construct($contact_name, $contact_phone, $contact_address)
         {
-            $this->$name = $contact_name;
-            $this->$phone = $contact_phone;
-            $this->$address = $contact_address;
+            $this->name = $contact_name;
+            $this->phone = $contact_phone;
+            $this->address = $contact_address;
         }
 
         // setters //
