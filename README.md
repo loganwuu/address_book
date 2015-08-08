@@ -13,10 +13,10 @@ This app displays and allows users to add and delete contacts in his/her Address
 * Enter the following command into termianl 'php -S localhost:8000'
 * Open a web browser and type this into the address bar 'localhost:8000'
 * Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the AddressBook project folder on the console by typing in "composer install" and "composer update"
-* 
+
 ## Technologies Used
 
-PHP, HTML, CSS, Silex, Twig
+PHP, HTML, CSS, Silex, Twig, Composer
 
 ## Legal
 
