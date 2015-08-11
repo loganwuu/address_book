@@ -11,7 +11,7 @@
             {% else %}
                 <h1>Your Address Book</h1>
                 <ol>
-                    {% for contact in all_contacts %}
+                    {% for contact in all_contacts|sort %}
                     <li>{{ contact.getName }}</li>
                         <ul>
                             <li>{{ contact.getPhone }}</li>

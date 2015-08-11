@@ -1,11 +1,11 @@
 # Address Book
 
-##### App that displays a user's address book (8/7/2015)
+##### App that displays and sorts a user's address book (8/7/2015)
 
 #### By **Logan Wu**
 
 ## Description
-This app displays and allows users to add and delete contacts in his/her Address Book.
+This app displays and allows users to add and delete contacts sorted in alphabetical order in his/her Address Book.
 
 ## Setup
 * Open Terminal
